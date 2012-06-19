@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1C08F4159117590070C74F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1C08F3159117590070C74F /* UIKit.framework */; };
+		FF1C08F6159117590070C74F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1C08F5159117590070C74F /* Foundation.framework */; };
+		FF1C08F8159117590070C74F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1C08F7159117590070C74F /* CoreGraphics.framework */; };
+		FF1C08FE159117590070C74F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF1C08FC159117590070C74F /* InfoPlist.strings */; };
+		FF1C0900159117590070C74F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1C08FF159117590070C74F /* main.m */; };
+		FF1C0904159117590070C74F /* IRGHSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1C0903159117590070C74F /* IRGHSAppDelegate.m */; };
+		FF1C0907159117590070C74F /* IRGHSStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1C0905159117590070C74F /* IRGHSStoryboard.storyboard */; };
+		FF1C090A159117590070C74F /* IRGHSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1C0909159117590070C74F /* IRGHSViewController.m */; };
+		FF1C0921159119C80070C74F /* libIRGeoHelper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1C091E159119BE0070C74F /* libIRGeoHelper.a */; };
+		FF1C092515911A2C0070C74F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1C092415911A2C0070C74F /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF1C091D159119BE0070C74F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1C0915159119BE0070C74F /* IRGeoHelper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FF37134F1591110300F9952F;
+			remoteInfo = IRGeoHelper;
+		};
+		FF1C091F159119BE0070C74F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1C0915159119BE0070C74F /* IRGeoHelper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FF3713601591110300F9952F;
+			remoteInfo = IRGeoHelperTests;
+		};
+		FF1C0922159119D00070C74F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF1C0915159119BE0070C74F /* IRGeoHelper.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FF37134E1591110300F9952F;
+			remoteInfo = IRGeoHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF1C08EF159117590070C74F /* IRGeoHelper-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IRGeoHelper-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1C08F3159117590070C74F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF1C08F5159117590070C74F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF1C08F7159117590070C74F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF1C08FB159117590070C74F /* IRGeoHelper-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IRGeoHelper-Sample-Info.plist"; sourceTree = "<group>"; };
+		FF1C08FD159117590070C74F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF1C08FF159117590070C74F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF1C0901159117590070C74F /* IRGeoHelper-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRGeoHelper-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		FF1C0902159117590070C74F /* IRGHSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IRGHSAppDelegate.h; path = "IRGeoHelper-Sample/IRGHSAppDelegate.h"; sourceTree = "<group>"; };
+		FF1C0903159117590070C74F /* IRGHSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IRGHSAppDelegate.m; path = "IRGeoHelper-Sample/IRGHSAppDelegate.m"; sourceTree = "<group>"; };
+		FF1C0906159117590070C74F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/IRGHSStoryboard.storyboard; sourceTree = "<group>"; };
+		FF1C0908159117590070C74F /* IRGHSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IRGHSViewController.h; path = "IRGeoHelper-Sample/IRGHSViewController.h"; sourceTree = "<group>"; };
+		FF1C0909159117590070C74F /* IRGHSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IRGHSViewController.m; path = "IRGeoHelper-Sample/IRGHSViewController.m"; sourceTree = "<group>"; };
+		FF1C0915159119BE0070C74F /* IRGeoHelper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRGeoHelper.xcodeproj; path = IRGeoHelper/IRGeoHelper.xcodeproj; sourceTree = "<group>"; };
+		FF1C092415911A2C0070C74F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF1C08EC159117590070C74F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1C0921159119C80070C74F /* libIRGeoHelper.a in Frameworks */,
+				FF1C08F4159117590070C74F /* UIKit.framework in Frameworks */,
+				FF1C08F6159117590070C74F /* Foundation.framework in Frameworks */,
+				FF1C08F8159117590070C74F /* CoreGraphics.framework in Frameworks */,
+				FF1C092515911A2C0070C74F /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF1C08E4159117590070C74F = {
+			isa = PBXGroup;
+			children = (
+				FF1C0902159117590070C74F /* IRGHSAppDelegate.h */,
+				FF1C0903159117590070C74F /* IRGHSAppDelegate.m */,
+				FF1C0905159117590070C74F /* IRGHSStoryboard.storyboard */,
+				FF1C0908159117590070C74F /* IRGHSViewController.h */,
+				FF1C0909159117590070C74F /* IRGHSViewController.m */,
+				FF1C08FA159117590070C74F /* Supporting Files */,
+				FF1C08F2159117590070C74F /* Frameworks */,
+				FF1C08F0159117590070C74F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF1C08F0159117590070C74F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF1C08EF159117590070C74F /* IRGeoHelper-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF1C08F2159117590070C74F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF1C0915159119BE0070C74F /* IRGeoHelper.xcodeproj */,
+				FF1C08F3159117590070C74F /* UIKit.framework */,
+				FF1C08F5159117590070C74F /* Foundation.framework */,
+				FF1C08F7159117590070C74F /* CoreGraphics.framework */,
+				FF1C092415911A2C0070C74F /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF1C08FA159117590070C74F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF1C08FB159117590070C74F /* IRGeoHelper-Sample-Info.plist */,
+				FF1C08FC159117590070C74F /* InfoPlist.strings */,
+				FF1C08FF159117590070C74F /* main.m */,
+				FF1C0901159117590070C74F /* IRGeoHelper-Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "IRGeoHelper-Sample";
+			sourceTree = "<group>";
+		};
+		FF1C0916159119BE0070C74F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF1C091E159119BE0070C74F /* libIRGeoHelper.a */,
+				FF1C0920159119BE0070C74F /* IRGeoHelperTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF1C08EE159117590070C74F /* IRGeoHelper-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF1C090D159117590070C74F /* Build configuration list for PBXNativeTarget "IRGeoHelper-Sample" */;
+			buildPhases = (
+				FF1C08EB159117590070C74F /* Sources */,
+				FF1C08EC159117590070C74F /* Frameworks */,
+				FF1C08ED159117590070C74F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF1C0923159119D00070C74F /* PBXTargetDependency */,
+			);
+			name = "IRGeoHelper-Sample";
+			productName = "IRGeoHelper-Sample";
+			productReference = FF1C08EF159117590070C74F /* IRGeoHelper-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF1C08E6159117590070C74F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IRGHS;
+				ORGANIZATIONNAME = "Iridia Productions";
+			};
+			buildConfigurationList = FF1C08E9159117590070C74F /* Build configuration list for PBXProject "IRGeoHelper-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF1C08E4159117590070C74F;
+			productRefGroup = FF1C08F0159117590070C74F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF1C0916159119BE0070C74F /* Products */;
+					ProjectRef = FF1C0915159119BE0070C74F /* IRGeoHelper.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FF1C08EE159117590070C74F /* IRGeoHelper-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF1C091E159119BE0070C74F /* libIRGeoHelper.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIRGeoHelper.a;
+			remoteRef = FF1C091D159119BE0070C74F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FF1C0920159119BE0070C74F /* IRGeoHelperTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = IRGeoHelperTests.octest;
+			remoteRef = FF1C091F159119BE0070C74F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF1C08ED159117590070C74F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1C08FE159117590070C74F /* InfoPlist.strings in Resources */,
+				FF1C0907159117590070C74F /* IRGHSStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF1C08EB159117590070C74F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1C0900159117590070C74F /* main.m in Sources */,
+				FF1C0904159117590070C74F /* IRGHSAppDelegate.m in Sources */,
+				FF1C090A159117590070C74F /* IRGHSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF1C0923159119D00070C74F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRGeoHelper;
+			targetProxy = FF1C0922159119D00070C74F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF1C08FC159117590070C74F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1C08FD159117590070C74F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FF1C0905159117590070C74F /* IRGHSStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF1C0906159117590070C74F /* en */,
+			);
+			name = IRGHSStoryboard.storyboard;
+			path = "IRGeoHelper-Sample";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF1C090B159117590070C74F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/IRGeoHelper/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF1C090C159117590070C74F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/IRGeoHelper/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF1C090E159117590070C74F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRGeoHelper-Sample/IRGeoHelper-Sample-Prefix.pch";
+				INFOPLIST_FILE = "IRGeoHelper-Sample/IRGeoHelper-Sample-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF1C090F159117590070C74F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRGeoHelper-Sample/IRGeoHelper-Sample-Prefix.pch";
+				INFOPLIST_FILE = "IRGeoHelper-Sample/IRGeoHelper-Sample-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF1C08E9159117590070C74F /* Build configuration list for PBXProject "IRGeoHelper-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1C090B159117590070C74F /* Debug */,
+				FF1C090C159117590070C74F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF1C090D159117590070C74F /* Build configuration list for PBXNativeTarget "IRGeoHelper-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF1C090E159117590070C74F /* Debug */,
+				FF1C090F159117590070C74F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF1C08E6159117590070C74F /* Project object */;
+}

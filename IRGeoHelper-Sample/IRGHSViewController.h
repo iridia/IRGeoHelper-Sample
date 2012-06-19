@@ -15,4 +15,8 @@
 
 @property (weak, nonatomic) IBOutlet IRMapView *mapView;
 
+- (IBAction) handleRegionChange:(id)sender;
+- (IBAction) handleCenterCoordinateChange:(id)sender;
+- (IBAction) handleMapRectChange:(id)sender;
+
 @end

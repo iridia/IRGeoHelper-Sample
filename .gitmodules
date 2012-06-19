@@ -1,0 +1,3 @@
+[submodule "IRGeoHelper"]
+	path = IRGeoHelper
+	url = git://github.com/iridia/IRGeoHelper.git

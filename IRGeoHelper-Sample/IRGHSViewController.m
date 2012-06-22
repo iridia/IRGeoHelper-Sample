@@ -9,7 +9,7 @@
 #import "IRGHSViewController.h"
 
 @implementation IRGHSViewController
-@synthesize mapView;
+@synthesize mapView = _mapView;
 
 - (void) mapView:(MKMapView *)mapView regionWillChangeAnimated:(BOOL)animated {
 
